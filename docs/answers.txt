@@ -1,0 +1,51 @@
+A) 
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 774 bytes | 193.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Romario21/Assignment1.git
+   fbdbe93..160101e  master -> master
+
+B) In total there has been 9 commits
+I used the command "$ git shortlog"
+
+C) It was last modified:  Wed Sep 27 16:31:42 2017
+I used the command "$ git log -p .gitignore
+
+D) 
+commit cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+commit 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+
+E) 
+1. It is a way of isolating the development activities of several
+developers, thus its better serves work done in parallel
+ 
+2. Allows for changes to be made by each developer (in development
+branch) and later be verified and tested when pushed. (so basically
+a sense of security of not messing up the entire project)
+
+F) git status allows for inspection of the working directory and
+the staging area. It tells if any modifications were made to any 
+files in the branch. git log on the other hand simply outputs the
+commits done, which can be printed out in several ways.
+
+G) I would use " git log --follow Weapon.h"
+
+H) I would use "git log --all --grep="file""
+
+I)
+1. Inheritence is when new classes(called derived classes) inherits
+properties from another class(base/parent class). This is done in
+order to reuse code and allows new classes to share data and 
+functionality found in the base class.
+
+2. Polymorphism occurs within the notion of inheritence, it is when
+a call to a member function of an object will execute a different 
+function, this all depending on what object(base or derived class)
+is doing the call.
+
+3. This is the concept of keeping data from being misused from the 
+outside world. only cerain functions can modify and access data 
+encapsulated in classes(under private).
