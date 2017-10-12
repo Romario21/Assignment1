@@ -22,7 +22,7 @@ class LegendaryTomahawk : public Weapon {
 
 public:
 
-	SimpleAxe() : Weapon("Legendary Tomahawk", 70.0) {}
+	LegendaryTomahawk() : Weapon("Legendary Tomahawk", 70.0) {}
 	virtual ~LegendaryTomahawk() {};
 	virtual double hit(double armor);
 
