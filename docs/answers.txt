@@ -49,3 +49,14 @@ is doing the call.
 3. This is the concept of keeping data from being misused from the 
 outside world. only cerain functions can modify and access data 
 encapsulated in classes(under private).
+
+--------------------------------------------------------------
+
+7. I think the RoleGame prototype is using both of these object 
+oriented principles. Polymorphism is being used when weapon 
+object is created (base class) in main.cpp  and the functions 
+executing are not part of the base class. Encapsulation can be 
+viewed with the private string "name" in the class weapon, It 
+cannot be directly accessed by the outside world only by get 
+function and constructor.
+
